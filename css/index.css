@@ -1,0 +1,47 @@
+.section {
+  font: 50px "Microsoft Yahei";
+  color: #ffffaa;
+}
+.panel {
+  position: absolute;
+  margin-left: 700px;
+  bottom: 0;
+  width: 500px;
+  height: 150px;
+}
+.dpanel {
+  position: absolute;
+  top: 80px;
+  width: 500px;
+  height: 390px;
+  margin-left: 700px;
+}
+.map {
+  position: absolute;
+  top: "5%";
+  bottom: 0;
+  left: 0;
+  right: 30%;
+  height: 500px;
+  z-index: 2;
+  width: 60%;
+}
+.uschart {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  bottom: 0;
+}
+p.mylayout {
+  font: 50px "Microsoft Yahei";
+  font-weight: 900;
+  top: 0;
+  left: 50%;
+  color: white;
+  position: absolute;
+  transform: translateX(-60%);
+  margin-top: 0.3125rem;
+  text-align: left;
+  word-break: keep-all;
+  white-space: nowrap;
+}
